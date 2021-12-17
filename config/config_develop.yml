@@ -1,0 +1,79 @@
+database:
+    user: rabobunny
+    password: rabobunny
+    name: rabobank1
+    url: bolt://localhost:7687
+
+## Logging configuration
+#logging:
+#    version: 1
+#    disable_existing_loggers: False
+#    formatters:
+#        simple:
+#            format: "%(asctime)s - %(name)s - %(thread)d - %(levelname)s - %(message)s"
+#
+#        logstash_formatter:
+#            (): logstash_async.formatter.LogstashFormatter
+#            message_type: python-logstash
+#            fqdn: false
+#            extra_prefix: py
+#            extra:
+#                application: wsdedommel_ketendashboard_operators
+#                env: develop
+#
+#    handlers:
+#        console:
+#            class: logging.StreamHandler
+#            level: DEBUG
+#            formatter: simple
+#            stream: ext://sys.stdout
+#
+#        info_file_handler:
+#            class: logging.handlers.RotatingFileHandler
+#            level: INFO
+#            formatter: simple
+#            filename: logs/pipple.log
+#            maxBytes: 10485760 # 10MB
+#            backupCount: 20
+#            encoding: utf8
+#
+#        error_file_handler:
+#            class: logging.handlers.RotatingFileHandler
+#            level: ERROR
+#            formatter: simple
+#            filename: logs/pipple_error.log
+#            maxBytes: 10485760 # 10MB
+#            backupCount: 20
+#            encoding: utf8
+#
+#        logstash_handler:
+#            class: logstash_async.handler.AsynchronousLogstashHandler
+#            enable: True
+#            host: logging.pipple.nl
+#            port: 80
+#            transport: logstash_async_http.transport.HttpTransport
+#            level: DEBUG
+#            database_path: ''
+#            formatter: logstash_formatter
+#
+#    loggers:
+#        requests:
+#            level: INFO
+#        elasticsearch:
+#            level: INFO
+#        botocore:
+#            level: WARNING
+#        urllib3:
+#            level: INFO
+#        s3transfer:
+#            level: INFO
+#        matplotlib:
+#            level: INFO
+#        pdfminer:
+#            level: ERROR
+#        tensorflow:
+#            level: WARNING
+#
+#    root:
+#        level: DEBUG
+#        handlers: [console, info_file_handler, error_file_handler, logstash_handler]
