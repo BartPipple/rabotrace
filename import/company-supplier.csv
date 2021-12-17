@@ -1,0 +1,5 @@
+supplierid;companyid;supply_amount;transport_via
+1;1;100;plane
+2;1;150;boat
+2;2;80;boat
+3;2;100;truck

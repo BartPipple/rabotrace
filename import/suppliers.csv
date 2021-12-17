@@ -1,0 +1,8 @@
+supplierid;supplier_name;supplier_type;founded;energylabel;country
+1;supplier_A;Farm Group;1996-07-04 00:00:00.000;A;NL
+2;supplier_B;Local Trader;2016-07-04 00:00:00.000;;DU
+3;supplier_C;Farm Group;2000-01-01 00:00:00.000;B;NL
+4;supplier_D;Local Trader;2000-01-01 00:00:00.000;A;BE
+5;supplier_E;Local Trader;2021-07-04 00:00:00.000;E;BE
+6;supplier_F;Local Trader;2021-07-04 00:00:00.000;E;
+7;supplier_G;Farm Input Trader;2021-07-04 00:00:00.000;E;NL
